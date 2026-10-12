@@ -23,7 +23,7 @@
 //         return temp;
 //     }
 // }
-/////---> One pass Solution;
+/////---> One pass Solution;  Slow Fast Approach
 class Solution{
     public ListNode middleNode(ListNode head){
         ListNode slow = head;
