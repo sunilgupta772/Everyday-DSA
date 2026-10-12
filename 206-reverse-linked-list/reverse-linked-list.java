@@ -13,12 +13,16 @@ class Solution {
         ListNode prev = null;
         ListNode slow = head;
         ListNode fast = head;
-        while(slow!=null){
+        while(fast!=null){
             fast = fast.next;
             slow.next = prev;
             prev = slow;
             slow = fast;
         }
+        // fast = fast.next;
+        //     slow.next = prev;
+        //     prev = slow;
+        //     slow = fast;
         return prev;
       
     }
