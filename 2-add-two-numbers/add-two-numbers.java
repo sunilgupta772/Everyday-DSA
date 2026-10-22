@@ -26,21 +26,6 @@ class Solution {
 
             i = i.next;
             j = j.next;
-            // if(sum>9){
-            //     while(sum>9){
-            //         int last = sum%10;
-            //         temp.next = new ListNode(last);
-            //         temp = temp.next;
-            //         sum  = sum/10;
-            //         carry = sum;
-            //         // temp.val = last;
-
-            //     }
-            // }
-            // temp.next =  new ListNode(sum);
-            // temp = temp.next;
-            // i=i.next;
-            // j=j.next;
         }
         while(i!=null){
             sum = i.val + carry;
